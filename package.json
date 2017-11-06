@@ -1,0 +1,21 @@
+{
+  "name": "node-kong-api",
+  "version": "1.0.0",
+  "description": "Kong Api Client in NodeJS",
+  "main": "lib/lib.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Cole <daniel@leggett.fr>",
+  "license": "ISC",
+  "dependencies": {
+    "joi": "^13.0.1",
+    "lodash": "^4.17.4",
+    "querystring": "^0.2.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  }
+}
