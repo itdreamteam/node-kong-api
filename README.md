@@ -5,7 +5,7 @@ A Node Kong Api Client using Promises
 ## Installation
 
 ```
- npm i -s javascript-kong-api
+ npm i -s node-kong-api
 ```
 
 ## Usage
