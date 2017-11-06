@@ -1,5 +1,5 @@
 {
-  "name": "node-kong-api",
+  "name": "@pixul/node-kong-api",
   "version": "1.0.0",
   "description": "Kong Api Client in NodeJS",
   "main": "lib/lib.js",

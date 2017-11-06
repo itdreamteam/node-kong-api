@@ -1,18 +1,18 @@
 # Kong Node Client
 
-A NodeJS Kong Api Client using Promises
+A Node Kong Api Client using Promises
 
 ## Installation
 
 ```
- npm i -s node-kong-api
+ npm i -s javascript-kong-api
 ```
 
 ## Usage
 
 
-```node
-    const Kong = require('node-kong-api');
+```javascript
+    const Kong = require('javascript-kong-api');
 
 
     let kong = new Kong({
@@ -30,186 +30,186 @@ A NodeJS Kong Api Client using Promises
 
 ## Available methods
 
-```node
-kong.getNodeInformation()
+```javascript
+kong.getjavascriptInformation()
 ```
 
-```node
-kong.getNodeStatus()
+```javascript
+kong.getjavascriptStatus()
 ```
 
-```node
+```javascript
 kong.addApi(api)
 ```
 
-```node
+```javascript
 kong.getApi(nameOrId)
 ```
 
-```node
+```javascript
 kong.listApis(query)
 ```
 
-```node
+```javascript
 kong.updateApi(nameOrId, api)
 ```
 
-```node
+```javascript
 kong.updateOrCreateApi(api)
 ```
 
-```node
+```javascript
 kong.deleteApi(nameOrId)
 ```
 
-```node
+```javascript
 kong.addConsumer(consumer)
 ```
 
-```node
+```javascript
 kong.getConsumer(nameOrId)
 ```
 
-```node
+```javascript
 kong.listConsumers(query)
 ```
 
-```node
+```javascript
 kong.updateConsumer(usernameOrId, consumer)
 ```
 
-```node
+```javascript
 kong.updateOrCreateConsumer(consumer)
 ```
 
-```node
+```javascript
 kong.deleteConsumer(usernameOrId)
 ```
 
-```node
+```javascript
 kong.addPluginToApi(apiNameOrId, plugin)
 ```
 
-```node
+```javascript
 kong.addPluginToAllApis(plugin)
 ```
 
-```node
+```javascript
 kong.getPlugin(id)
 ```
 
-```node
+```javascript
 kong.listPlugins(query)
 ```
 
-```node
+```javascript
 kong.listPluginsForApi(nameOrId, query)
 ```
 
-```node
+```javascript
 kong.updatePlugin(apiNameOrId, pluginNameOrId, plugin)
 ```
 
-```node
+```javascript
 kong.updateOrCreatePlugin(apiNameOrId, plugin)
 ```
 
-```node
+```javascript
 kong.deletePlugin(apiNameOrId, pluginNameOrId)
 ```
 
-```node
+```javascript
 kong.getEnabledPlugins()
 ```
 
-```node
+```javascript
 kong.getPluginSchema(pluginName)
 ```
 
-```node
+```javascript
 kong.addCertificate(certificate)
 ```
 
-```node
+```javascript
 kong.getCertificate(sniOrId)
 ```
 
-```node
+```javascript
 kong.listCertificates()
 ```
 
-```node
+```javascript
 kong.updateCertificate(sniOrId, certificate)
 ```
 
-```node
+```javascript
 kong.updateOrCreateCertificate(certificate)
 ```
 
-```node
+```javascript
 kong.deleteCertificate(sniOrId)
 ```
 
-```node
+```javascript
 kong.addSNI(sni)
 ```
 
-```node
+```javascript
 kong.getSNI(name)
 ```
 
-```node
+```javascript
 kong.listSNIs()
 ```
 
-```node
+```javascript
 kong.updateSNI(name, sni)
 ```
 
-```node
+```javascript
 kong.updateOrCreateSNI(sni)
 ```
 
-```node
+```javascript
 kong.deleteSNI(name)
 ```
 
-```node
+```javascript
 kong.addUpstream(upstream)
 ```
 
-```node
+```javascript
 kong.getUpstream(nameOrId)
 ```
 
-```node
+```javascript
 kong.listUpstreams(query)
 ```
 
-```node
+```javascript
 kong.updateUpstream(nameOrId, upstream)
 ```
 
-```node
+```javascript
 kong.updateOrCreateUpstream(upstream)
 ```
 
-```node
+```javascript
 kong.deleteUpstream(nameOrId)
 ```
 
-```node
+```javascript
 kong.addTarget(upstreamNameOrId, target)
 ```
 
-```node
+```javascript
 kong.listTargets(upstreamNameOrId, query)
 ```
 
-```node
+```javascript
 kong.listActiveTargets(upstreamNameOrId)
 ```
 
-```node
+```javascript
 kong.deleteTarget(upstreamNameOrId, targetOrId)
 ```
